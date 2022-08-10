@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	box-sizing: border-box;
+	height: 100%;
+	background-color: rgb(239, 241, 241);
+}
+
+.wrapper {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 33px -4px rgba(34, 60, 80, 0.16);
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto 20px;
+}
+
+.form_title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.form_item {
+	margin: 0 0 20px 0;
+}
+
+.form_label {
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form_input {
+	height: 40px;
+	padding-left: 10px;
+	width: 100%;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 18px;
+	outline: none;
+	transition: all 0.5s ease 0s;
+}
+
+#form_name {
+	text-transform: uppercase;
+}
+
+.error {
+	box-shadow: 0 0 15px #e20909 !important;
+}
+
+.error_message {
+	color: red;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.form_input:focus {
+	box-shadow: 0 0 15px #5db92b;
+}
+
+.form_message {
+	min-height: 120px;
+	resize: vertical;
+}
+
+.form_button {
+	width: 100%;
+	min-height: 40px;
+	border: none;
+	border-radius: 10px;
+	background-color: #5db92b;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0 5px 10px #224112;
+	transition: background-color 0.5s ease 0s;
+}
+
+.form_button:hover {
+	background-color: #478b22;
+}
+
+.status {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	color: #5db92b;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Отправка формы</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="form">
+				<form action="#" id='form'>
+					<h1 class="form_title">Валидация и отправка формы</h1>
+					<div class="form_item">
+						<label class="form_label" for="form_name">Имя Фамилия:</label>
+						<input type="text" class="form_input" id="form_name" name="name" 
+						placeholder='От 3 до 30 символов латинского алфавита'/>
+						<div class='error_message'></div>
+					</div>
+					<div class="form_item">
+						<label class="form_label" for="form_email">E-mail:</label>
+						<input type="text" class="form_input" id="form_email" name="email" 
+						placeholder='name@domain.com'/>
+						<div class='error_message'></div>
+						
+					</div>
+					<div class="form_item">
+						<label class="form_label" for="form_phone">Номер телефона:</label>
+						<input type="text" class="form_input" id="form_phone" name="phone" 
+						placeholder='(+)7(8)***********'/>
+						<div class='error_message'></div>
+
+					</div>
+					<div class="form_item">
+						<label class="form_label" for="form_date">Дата рождения:</label>
+						<input type="date" class="form_input" id="form_date" name="date" />
+						<div class='error_message'></div>
+						
+					</div>
+					<div class="form_item">
+						<label class="form_label" for="form_message">Сообщение:</label>
+						<textarea name="message" id="form_message" cols="30" rows="10" class="form_message form_input" 
+						placeholder='Ваше сообщение (от 10 до 300 символов)...'></textarea>
+						<div class='error_message'></div>
+
+					</div>
+					<button class="form_button" type='submit'>Отправить</button>
+				</form>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

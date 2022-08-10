@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	function sendForm(event) {
 		event.preventDefault();
 
-		const url = 'https://jsonplaceholder1.typicode.com/posts';
+		const url = 'https://jsonplaceholder.typicode.com/posts';
 
 		for (let el of form.elements) {
 			if (el.value === '' && el.tagName !== 'BUTTON') {
